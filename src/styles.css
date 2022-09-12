@@ -1,0 +1,115 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 85%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Lato", "sans-serif";
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.7;
+  /* color: color-grey-dark; */
+  padding: 3rem;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer {
+  letter-spacing: 0.15em;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 15px;
+  background-color: #fafafa;
+  text-transform: uppercase;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.footer-title {
+  font-size: 15px;
+  padding-bottom: 25px;
+}
+
+.icon {
+  color: #565656;
+}
+
+.icon:hover {
+  transform: scale(1.05);
+}
+
+.copyright {
+  font-size: 11px;
+  padding-top: 10px;
+}
+
+/* Contact page CSS  */
+#contactPage {
+  text-align: center;
+  margin-top: 13vh;
+}
+
+#sendButton {
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 15px;
+  padding: 7px;
+  font-family: "Montserrat";
+  background-color: #1876d1;
+}
+.contactInput {
+  padding: 7px;
+  width: 100%;
+  font-family: "Montserrat";
+  border-radius: 15px;
+  border: 1px solid gray;
+}
+#questionBox {
+  width: 100%;
+  font-family: "Montserrat";
+  height: 100px;
+  border-radius: 15px;
+  padding: 10px;
+  border: 1px solid gray;
+}
+/* END OFContact page CSS  */
+
+/*START EVENT page CSS */
+
+#LearnMoreButton {
+  width: 170px;
+  height: 50px;
+  font-size: 20px;
+}
+#LearnMoreButton:hover {
+  background-color: #00989d !important;
+  color: white !important;
+  border: none !important;
+}
+
+#LearnMoreButton {
+  margin-top: 20px !important;
+}
+
+@media (max-width: 570px) {
+  #eventTitle {
+    font-size: 3vh !important;
+  }
+
+  #eventDescription {
+    font-size: 2.3vh !important;
+    padding: 1vh 0 !important;
+  }
+}
+
+/*END EVENT page CSS */
